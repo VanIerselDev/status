@@ -2,12 +2,12 @@ owner: VanIerselDev
 repo: status
 
 sites:
-- name: Website
-  url: https://vaniersel.dev
-- name: API
-  url: https://vaniersel.dev/health
-- name: Help Center
-  url: https://help.vaniersel.dev
+  - name: Website
+    url: https://vaniersel.dev
+  - name: API
+    url: https://vaniersel.dev/health
+  - name: Help Center
+    url: https://help.vaniersel.dev
 
 status-website:
 cname: status.vaniersel.dev
