@@ -1,19 +1,21 @@
 owner: VanIerselDev
-  repo: status                                                                                                                                                          
-  sites:
-    - name: Website
-      url: https://vaniersel.dev
-    - name: API                                                                                                                                                               
-    url: https://vaniersel.dev/health
-    - name: Help Center                                                                                                                                                       
-    url: https://help.vaniersel.dev
-                                                                                                                                                                          
+repo: status
+
+sites:
+- name: Website
+  url: https://vaniersel.dev
+- name: API
+  url: https://vaniersel.dev/health
+- name: Help Center
+  url: https://help.vaniersel.dev
+
 status-website:
-cname: status.vaniersel.dev                                                                    
+cname: status.vaniersel.dev
 name: SalonERP Status
-    theme: light
-    favicon: https://vaniersel.dev/favicon.ico                                                                                                                          
-  i18n:                                                                                     
-  activeIncidents: Active Incidents                                                                                                                                       
-  noActiveIncidents: All systems operational
-  incidentReport: Incident Report
+theme: light
+favicon: https://vaniersel.dev/favicon.ico
+
+i18n:
+activeIncidents: Active Incidents
+noActiveIncidents: All systems operational
+incidentReport: Incident Report
