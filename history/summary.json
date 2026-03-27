@@ -4,53 +4,59 @@
     "url": "https://vaniersel.dev",
     "icon": "https://icons.duckduckgo.com/ip3/vaniersel.dev.ico",
     "slug": "website",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.65%",
+    "uptimeDay": "99.65%",
+    "uptimeWeek": "99.65%",
+    "uptimeMonth": "99.65%",
+    "uptimeYear": "99.65%",
     "time": 700,
     "timeDay": 700,
     "timeWeek": 700,
     "timeMonth": 700,
     "timeYear": 700,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-03-27": 0
+    }
   },
   {
     "name": "API",
     "url": "https://vaniersel.dev/health",
     "icon": "https://icons.duckduckgo.com/ip3/vaniersel.dev.ico",
     "slug": "api",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.78%",
+    "uptimeDay": "99.78%",
+    "uptimeWeek": "99.78%",
+    "uptimeMonth": "99.78%",
+    "uptimeYear": "99.78%",
     "time": 121,
     "timeDay": 121,
     "timeWeek": 121,
     "timeMonth": 121,
     "timeYear": 121,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-03-27": 0
+    }
   },
   {
     "name": "Help Center",
     "url": "https://help.vaniersel.dev",
     "icon": "https://icons.duckduckgo.com/ip3/help.vaniersel.dev.ico",
     "slug": "help-center",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.82%",
+    "uptimeDay": "99.82%",
+    "uptimeWeek": "99.82%",
+    "uptimeMonth": "99.82%",
+    "uptimeYear": "99.82%",
     "time": 527,
     "timeDay": 527,
     "timeWeek": 527,
     "timeMonth": 527,
     "timeYear": 527,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-03-27": 0
+    }
   }
 ]
