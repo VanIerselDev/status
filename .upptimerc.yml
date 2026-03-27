@@ -10,12 +10,12 @@ sites:
     url: https://help.vaniersel.dev
 
 status-website:
-cname: status.vaniersel.dev
-name: SalonERP Status
-theme: light
-favicon: https://vaniersel.dev/favicon.ico
+  cname: status.vaniersel.dev
+  name: SalonERP Status
+  theme: light
+  favicon: https://vaniersel.dev/favicon.ico
 
 i18n:
-activeIncidents: Active Incidents
-noActiveIncidents: All systems operational
-incidentReport: Incident Report
+  activeIncidents: Active Incidents
+  noActiveIncidents: All systems operational
+  incidentReport: Incident Report
