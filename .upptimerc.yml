@@ -92,11 +92,63 @@ assignees:
 
 i18n:
   activeIncidents: Actieve incidenten
-  noActiveIncidents: Alle systemen operationeel
-  incidentReport: Incidentrapport
-  overallUptime: Totale uptime
-  lastUpdated: Laatst bijgewerkt
+  allSystemsOperational: Alle systemen zijn operationeel
+  incidentReport: "Incidentrapport #$NUMBER →"
+  activeIncidentSummary: Geopend op $DATE met $POSTS berichten
+  incidentTitle: Incident $NUMBER Details
+  incidentDetails: Incidentdetails
+  incidentFixed: Opgelost
+  incidentOngoing: Lopend
+  incidentOpenedAt: Geopend op
+  incidentClosedAt: Gesloten op
+  incidentViewOnGitHub: Bekijk en volg op GitHub
+  incidentCommentSummary: Geplaatst op $DATE door $AUTHOR
+  incidentBack: "← Terug naar alle incidenten"
+  pastIncidents: Eerdere incidenten
+  pastIncidentsResolved: Opgelost in $MINUTES minuten met $POSTS berichten
   liveStatus: Live status
-  allDone: Alles werkt
-  degradedPerformance: Verminderde prestaties
-  completeOutage: Volledige storing
+  overallUptime: "Totale uptime: $UPTIME"
+  overallUptimeTitle: Totale uptime
+  averageResponseTime: "Gemiddelde responstijd: $TIMEms"
+  averageResponseTimeTitle: Gemiddelde responstijd
+  sevelDayResponseTime: Responstijd afgelopen 7 dagen
+  responseTimeMs: Responstijd (ms)
+  up: Online
+  down: Offline
+  degraded: Verminderd
+  ms: ms
+  loading: Laden
+  navGitHub: GitHub
+  footer: Deze pagina is [open source]($REPO), mogelijk gemaakt door [Upptime](https://upptime.js.org)
+  rateLimitExceededTitle: Limiet bereikt
+  rateLimitExceededIntro: Je hebt het maximale aantal verzoeken per uur overschreden. Wacht even voordat je deze website opnieuw bezoekt, of voeg een GitHub Personal Access Token toe om door te gaan.
+  rateLimitExceededWhatDoesErrorMean: Wat betekent deze fout?
+  rateLimitExceededErrorMeaning: Deze website gebruikt de GitHub API voor realtime statusgegevens. Standaard staat GitHub 60 verzoeken per uur per IP-adres toe, en die zijn verbruikt.
+  rateLimitExceededErrorHowCanFix: Hoe kan ik dit oplossen?
+  rateLimitExceededErrorFix: Je kunt een uur wachten tot je limiet is hersteld. Of je kunt een GitHub Personal Access Token toevoegen, waarmee je 5.000 extra verzoeken per uur krijgt.
+  rateLimitExceededGeneratePAT: Leer hoe je een Personal Access Token genereert
+  rateLimitExceededHasSet: Je hebt een Personal Access Token ingesteld.
+  rateLimitExceededRemoveToken: Token verwijderen
+  rateLimitExceededGitHubPAT: GitHub Personal Access Token
+  rateLimitExceededCopyPastePAT: Kopieer en plak je token
+  rateLimitExceededSaveToken: Token opslaan
+  errorTitle: Er is een fout opgetreden
+  errorIntro: Er is een fout opgetreden bij het ophalen van de laatste statusgegevens.
+  errorText: Probeer het over enkele ogenblikken opnieuw.
+  errorHome: Ga naar de homepage
+  pastScheduledMaintenance: Eerder gepland onderhoud
+  scheduledMaintenance: Gepland onderhoud
+  scheduledMaintenanceSummaryStarted: Gestart op $DATE voor $DURATION minuten
+  scheduledMaintenanceSummaryStarts: Start op $DATE voor $DURATION minuten
+  startedAt: Gestart op
+  startsAt: Start op
+  duration: Duur
+  durationMin: $DURATION minuten
+  incidentCompleted: Afgerond
+  incidentScheduled: Ingepland
+  duration24H: 24u
+  duration7D: 7d
+  duration30D: 30d
+  duration1Y: 1j
+  durationAll: alles
+  locale: nl-NL
