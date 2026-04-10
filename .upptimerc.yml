@@ -2,19 +2,25 @@ owner: VanIerselDev
 repo: status
 
 sites:
-  - name: salon.online
-    url: https://vaniersel.dev
+  - name: Salonnare
+    url: https://salonnare.com
   - name: API Server
-    url: https://vaniersel.dev/health
+    url: https://salonnare.com/health
   - name: Help Center
-    url: https://help.vaniersel.dev
+    url: https://help.salonnare.com
+  - name: VanIersel.Dev
+    url: https://vaniersel.dev
+  - name: Monitoring
+    url: https://monitor.vaniersel.dev
+  - name: Ntfy
+    url: https://ntfy.vaniersel.dev
 
 status-website:
   cname: status.vaniersel.dev
-  name: salon.online Status
+  name: VanIersel Development — Status
   theme: light
-  logoUrl: https://vaniersel.dev/logo-light-theme.svg
-  favicon: https://vaniersel.dev/favicon.svg
+  logoUrl: https://salonnare.com/logo-light-theme.svg
+  favicon: https://salonnare.com/favicon.svg
   customHeadHtml: |
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
