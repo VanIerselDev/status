@@ -1,7 +1,7 @@
 url: https://vaniersel.dev/health
-status: up
-code: 200
-responseTime: 624
-lastUpdated: 2026-04-09T23:35:36.353Z
+status: down
+code: 502
+responseTime: 163
+lastUpdated: 2026-04-10T10:31:36.559Z
 startTime: 2026-04-07T12:56:50.318Z
 generator: Upptime <https://github.com/upptime/upptime>
