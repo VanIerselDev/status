@@ -22,19 +22,19 @@
     "url": "https://salonnare.com/health",
     "icon": "https://icons.duckduckgo.com/ip3/salonnare.com.ico",
     "slug": "api-server",
-    "status": "down",
-    "uptime": "97.98%",
-    "uptimeDay": "93.34%",
-    "uptimeWeek": "97.98%",
-    "uptimeMonth": "97.98%",
-    "uptimeYear": "97.98%",
-    "time": 1677,
-    "timeDay": 3245,
-    "timeWeek": 1677,
-    "timeMonth": 1677,
-    "timeYear": 1677,
+    "status": "up",
+    "uptime": "97.22%",
+    "uptimeDay": "90.78%",
+    "uptimeWeek": "97.22%",
+    "uptimeMonth": "97.22%",
+    "uptimeYear": "97.22%",
+    "time": 1534,
+    "timeDay": 2722,
+    "timeWeek": 1534,
+    "timeMonth": 1534,
+    "timeYear": 1534,
     "dailyMinutesDown": {
-      "2026-04-10": 96
+      "2026-04-10": 133
     }
   },
   {
