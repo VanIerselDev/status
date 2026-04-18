@@ -1,0 +1,14 @@
+name: Diag CI
+on: workflow_dispatch
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - env: { TOKEN: "${{ secrets.STATUS_BYPASS_TOKEN }}" }
+        run: |
+          for u in https://salonnare.com https://help.salonnare.com https://vaniersel.dev; do
+            echo -n "[no-header] $u: "
+            curl -s -o /dev/null -w "%{http_code}\n" "$u"
+            echo -n "[bypass]    $u: "
+            curl -s -o /dev/null -w "%{http_code}\n" -H "X-Status-Bypass: $TOKEN" "$u"
+          done
