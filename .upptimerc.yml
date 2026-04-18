@@ -9,21 +9,45 @@ sites:
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; UpptimeStatusBot/1.0; +https://status.vaniersel.dev)"
       - "X-Status-Bypass: $STATUS_BYPASS_TOKEN"
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+      - 307
+      - 403
   - name: API Server
     url: https://salonnare.com/health
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; UpptimeStatusBot/1.0; +https://status.vaniersel.dev)"
       - "X-Status-Bypass: $STATUS_BYPASS_TOKEN"
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+      - 307
+      - 403
   - name: Help Center
     url: https://help.salonnare.com
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; UpptimeStatusBot/1.0; +https://status.vaniersel.dev)"
       - "X-Status-Bypass: $STATUS_BYPASS_TOKEN"
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+      - 307
+      - 403
   - name: VanIersel.Dev
     url: https://vaniersel.dev
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; UpptimeStatusBot/1.0; +https://status.vaniersel.dev)"
       - "X-Status-Bypass: $STATUS_BYPASS_TOKEN"
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+      - 307
+      - 403
   - name: Monitoring
     url: https://monitor.vaniersel.dev
     headers:
@@ -39,6 +63,12 @@ sites:
     headers:
       - "User-Agent: Mozilla/5.0 (compatible; UpptimeStatusBot/1.0; +https://status.vaniersel.dev)"
       - "X-Status-Bypass: $STATUS_BYPASS_TOKEN"
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+      - 307
+      - 403
   - name: Dyola's Beauty Boutique
     url: https://www.dyolasbeautyboutique.nl
     headers:
