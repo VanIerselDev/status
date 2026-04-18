@@ -1,12 +1,19 @@
-# Status — Migrated to UptimeRobot
+# status.vaniersel.dev — Migrated to UptimeRobot
 
-This repository previously powered status.vaniersel.dev via Upptime. It has been migrated to **UptimeRobot** for better uptime detection (Cloudflare bot protection blocks GitHub Actions IPs with managed challenges — unsolvable on CF Free plans).
+This repo previously powered status.vaniersel.dev via Upptime. It has been migrated to **UptimeRobot** (Cloudflare's free-plan bot protection blocked GitHub Actions IPs with managed challenges, unsolvable without disabling Bot Fight Mode globally).
 
-**Current setup:**
+## Current setup
 
-- Monitoring: [UptimeRobot](https://uptimerobot.com) — 8 monitors, 5-min interval
-- Public status page: <https://stats.uptimerobot.com/zR5WYcKr6N>
-- Custom domain: <https://status.vaniersel.dev> redirects via `index.html` (GitHub Pages)
-- Alerts: email to vaniersel28@gmail.com
+- **Monitoring**: [UptimeRobot](https://uptimerobot.com) — 8 monitors, 5-min interval
+- **Status page**: <https://stats.uptimerobot.com/zR5WYcKr6N>
+- **Custom domain**: <https://status.vaniersel.dev> → 301 redirect via Cloudflare Single Redirect
+- **Alerts**: email to vaniersel28@gmail.com
 
-This repo now only serves `index.html` (redirect) + `CNAME`. All Upptime workflows are no-op stubs to disable scheduled runs.
+## What changed
+
+- DNS: `status.vaniersel.dev` is now `AAAA 100::` (proxied dummy, CF intercepts before origin)
+- CF Single Redirect rule on `vaniersel.dev` zone redirects all traffic to UptimeRobot
+- GitHub Pages disabled (no longer serves anything)
+- All Upptime workflows replaced with no-op stubs
+
+This repo is kept for git history and can be archived.
